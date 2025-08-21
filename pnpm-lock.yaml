@@ -26,6 +26,9 @@ importers:
       '@repo/common-frontend':
         specifier: workspace:*
         version: link:../../packages/common-frontend
+      '@repo/db':
+        specifier: workspace:*
+        version: link:../../packages/db
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
